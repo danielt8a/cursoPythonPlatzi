@@ -1,4 +1,4 @@
-# Apuntes Curso Python en Platzi
+# Apuntes Curso básico de Python en Platzi
 1._ Ventajas de aprender python:
 
 * Es Fácil de aprender, es un lenguaje que está en contacto con el idioma inglés.
@@ -61,6 +61,79 @@ mkdir -> make directory - Crear directorio o carpeta.
 touch -> Crea archivos
 
 touch ejemplo.txt
+
+## Explorando Python: operadores aritméticos
+
+### Consola interactiva
+
+Sirve para probar el lunguaje.
+
+#### Windows
+
+Para iniciar la consola interactiva en Windows se usa el comando:
+
+py
+
+#### Linux y Mac
+
+python3
+
+En la consola interactiva se pueden realizar operaciones directamente. Por ejemplo:
+
+5 + 5 <- Suma
+
+21 / 5 <- División
+
+17 - 4 <- Resta
+
+21 // 5 <- Los // indican que es una operación entera
+
+21 % 5 <- Módulo o resto
+
+2 ** 2 <- potencia - Dos elevado a la 2
+
+## Variables
+
+Una variable es aquel elemento que puede cambiar su valor. La cual lleva un nombre que debería describir lo que hace o el valor que guarda, el cual se conoce como identificador.
+
+Una variable es una caja o lugar en donde puedo guardar objetos: números, texto, etc.
+
+El identificador de mi variable no puede comenzar con un número y debe de estar en minúsculas. Las palabras dentro del mismo se separan con guión bajo.
+
+El signo =, en Python se refiere a asignación.
+
+## Los primitivos: tipos de datos sencillos.
+
+En Python todo es un objeto.
+
+Tipos de datos primitivos:
+
+* Números enteros.
+* Números de punto flotante
+* Texto (cadena de caracteres)
+* Booleanos ( verdadero y falso)
+
+## Convertir tipos de datos
+
+Convertir string a int
+
+numero1 = int(input("Escribe un numero: "))
+
+Convertir int a string
+
+numero_decimal = 4.5
+
+str(numero_decimal)
+
+## Operadores lógicos y de comparación
+
+
+
+
+
+
+
+
 
 
 
